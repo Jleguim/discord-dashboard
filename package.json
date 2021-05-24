@@ -1,0 +1,16 @@
+{
+  "name": "discord-dashboard",
+  "version": "0.0.1",
+  "description": "Configure a Discord Bot's configuration through a site.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "keywords": [],
+  "author": "Jleguim",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
