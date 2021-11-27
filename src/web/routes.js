@@ -1,4 +1,4 @@
-const { isAuthorized } = require('../api/middleware')
+const { isAuthorized } = require('../auth/JWT/middleware')
 
 module.exports = (app) => {
 

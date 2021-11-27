@@ -5,7 +5,7 @@ const config = require('./config')
 
 const app = express()
 
-const apiRoutes = require('./api/routes')
+const apiRoutes = require('./auth/routes')
 const webRoutes = require('./web/routes')
 
 app.use(cookie())
